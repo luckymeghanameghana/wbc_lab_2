@@ -1,0 +1,97 @@
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar .name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .sections a,
+.navbar .links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar .sections a:hover,
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+
+/* About Me Section */
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.about-me img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.about-me div {
+  max-width: 600px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 40px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.proj {
+  background-color: #e6f7ff;
+  border: 1px solid #b3e0ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.proj:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Technologies Section */
+.technologies {
+  padding: 40px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.technologies img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+
+
